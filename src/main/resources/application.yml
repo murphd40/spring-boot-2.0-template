@@ -1,0 +1,9 @@
+
+management:
+  endpoints:
+    web:
+      base-path: /
+      exposure:
+        include: '*'
+server:
+  port: 8080
